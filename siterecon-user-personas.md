@@ -1,74 +1,118 @@
-1. **Name: Alex Thompson**
-   - **Background:** Alex is a Business Developer at a mid-sized landscaping company. With a background in sales and marketing, Alex has been instrumental in growing the company’s client base.
-   - **Goals:** 
-     - To increase client acquisition by 20% this year.
-     - To develop strong relationships with potential clients for long-term partnerships.
-     - To streamline the proposal process for faster client onboarding.
-   - **Frustrations:** 
-     - Spending too much time on manual site measurement verification.
-     - Loss of potential clients due to slow turnaround on project proposals.
-     - Difficulty in maintaining up-to-date property insights for all clients.
-   - **Needs:** 
-     - A reliable tool that provides quick and accurate site measurements.
-     - Access to detailed property insights for client proposals.
-     - Integration of digital tools to enhance efficiency in contract negotiations.
+### User Persona 1: Julianne Moreno
 
-2. **Name: Sarah Bennett**
-   - **Background:** Sarah is a Production Manager with over a decade of experience in landscaping project management. She is responsible for overseeing multiple landscaping projects simultaneously.
-   - **Goals:** 
-     - To increase operational efficiency and project turnaround by 15%.
-     - Implement new technologies to improve team performance.
-     - Ensure 100% client satisfaction with every completed project.
-   - **Frustrations:** 
-     - Delays caused by inaccurate manual measurements.
-     - Repeated site visits for planning, which wastes time and resources.
-     - Difficulty in scheduling due to lack of quick access to accurate site data.
-   - **Needs:** 
-     - Site maps with precise area measurements that can be accessed remotely.
-     - Tools that help in efficient crew deployment and material planning.
-     - Ways to reduce time spent on manual scheduling activities.
+- **Background:**
+  - Age: 33
+  - Job Title: Business Developer
+  - Company: GreenScape Landscaping Solutions
+  - Education: Bachelor's degree in Business Administration
+    
+- **Work Responsibilities:**
+  - Develop and implement strategies to acquire new landscaping clients.
+  - Maintain and nurture relationships with existing clients for potential upselling.
+  - Collaborate with estimators for preparing detailed bid proposals.
+  - Spot and pursue emerging market opportunities.
 
-3. **Name: Jessica Lee**
-   - **Background:** Jessica is an Account Manager who manages a portfolio of high-value clients. She has a strong background in customer relations and service management.
-   - **Goals:** 
-     - To ensure all clients renew their contracts annually.
-     - Increase upsell opportunities by 10% through better client engagement.
-     - Provide excellent service levels to uphold the company’s reputation.
-   - **Frustrations:** 
-     - Inability to quickly address client questions due to lack of immediate access to property data.
-     - Challenges in tracking changes and developments on client properties without physical visits.
-     - Difficulty in managing multiple client accounts with varying service needs.
-   - **Needs:** 
-     - Automated site measurements to streamline contract renewals.
-     - Comprehensive digital property data for effective client communication.
-     - Tools to monitor and track property changes over time.
+- **Goals:**
+  - Increase client base by 20% over the next quarter.
+  - Enhance proposal turnaround time using accurate data.
+  - Secure long-term contracts by effectively demonstrating ROI to clients.
 
-4. **Name: Mark Johnson**
-   - **Background:** Mark is an Estimator who collaborates with the Business Development team to prepare project bids. He has a keen eye for detail and a strong analytical background.
-   - **Goals:** 
-     - To provide accurate and competitive bids to win major projects.
-     - Enhance collaboration with other departments to streamline bid preparation.
-     - Use technology to reduce time spent on the initial feasibility analysis.
-   - **Frustrations:** 
-     - Time-consuming process to manually gather and verify site measurements.
-     - Difficulties in obtaining timely and precise data needed for estimates.
-     - Pressure to consistently produce competitive yet precise bids amid market fluctuations.
-   - **Needs:** 
-     - Fast and precise site measurement tools to aid in bid preparation.
-     - Collaborative platforms where he can work seamlessly with Business Developers.
-     - Detailed property analytics to support estimate discussions with clients. 
+- **Frustrations:**
+  - Difficulty in obtaining precise site measurements quickly for proposals.
+  - The challenge of differentiating from competitors in a saturated market.
+  - Frequently encountering unexpected client objections in negotiations.
 
-5. **Name: Emily Garcia**
-   - **Background:** Emily is a Landscape Designer who works closely with clients to bring their landscaping visions to life. She has extensive design experience and a passion for creativity.
-   - **Goals:** 
-     - To produce innovative and visually appealing landscape designs.
-     - Ensure all design projects align with client expectations and specifications.
-     - Continuously update her portfolio with cutting-edge designs.
-   - **Frustrations:** 
-     - Limited access to up-to-date site measurements that affect design accuracy.
-     - Client brief changes requiring frequent redesigns, consuming extra time.
-     - Difficulty collaborating with remote teams due to lack of shared digital resources.
-   - **Needs:** 
-     - Real-time access to accurate site measurements and layouts.
-     - Collaborative design tools that facilitate adjustments based on feedback.
-     - Resources that help streamline the design process and enhance communication with clients.
+- **Needs:**
+  - Reliable software to provide quick and accurate site measurements.
+  - Tools for developing data-driven, compelling sales pitches.
+  - Continuous insight into market trends and client feedback for strategies.
+
+---
+
+### User Persona 2: Marcus Tibbs
+
+- **Background:**
+  - Age: 28
+  - Job Title: On-Field Crew Leader
+  - Company: Urban Landscaping Co.id
+  - Experience: 5 years in landscaping and maintenance
+
+- **Work Responsibilities:**
+  - Lead a team in executing landscaping projects, including planting and irrigation.
+  - Follow and assist in interpreting project plans from production managers.
+  - Ensure timely and accurate execution of tasks on-site.
+
+- **Goals:**
+  - Maximize team efficiency and work quality.
+  - Decrease downtime due to unclear or incorrect site instructions.
+  - Foster a safe and collaborative work environment.
+
+- **Frustrations:**
+  - Inaccurate or poorly communicated work areas leading to errors.
+  - Navigating unexpected obstacles on-site without prior warning.
+  - Delays caused by needing to verify site plans and measurements manually.
+
+- **Needs:**
+  - Accurate and accessible digital site maps and plans on mobile devices.
+  - Precise work area delineations to avoid overlaps or mistakes.
+  - Real-time communication tools for quick feedback and instruction adjustments.
+
+---
+
+### User Persona 3: Laura Chen
+
+- **Background:**
+  - Age: 45
+  - Job Title: Production Manager
+  - Company: NatureScape Projects Ltd.
+  - Education: Landscape Architecture degree and Project Management certification
+
+- **Work Responsibilities:**
+  - Manage multiple landscaping projects, ensuring timely and quality delivery.
+  - Plan and allocate resources and scheduling for various job sites.
+  - Monitor progress and resolve any on-site issues swiftly.
+
+- **Goals:**
+  - Enhance project efficiency and reduce costs by 15% in the upcoming year.
+  - Minimize on-site errors and improve crew coordination.
+  - Achieve high client satisfaction ratings for project quality and timeliness.
+
+- **Frustrations:**
+  - Constantly needing site visits for plan verification.
+  - Unpredictable project delays due to inaccurate site assessments.
+  - Resource misallocation as a result of poor initial area measurements.
+
+- **Needs:**
+  - Comprehensive digital site plans to streamline planning and execution.
+  - Access to accurate measurements for optimal resource allocation.
+  - Tools for effective team scheduling and real-time progress monitoring.
+
+---
+
+### User Persona 4: David Reyes
+
+- **Background:**
+  - Age: 39
+  - Job Title: Account Manager
+  - Company: Premier Landscaping Services
+  - Education: MBA in Customer Relationship Management
+
+- **Work Responsibilities:**
+  - Drive client engagement and ensure satisfaction.
+  - Manage client contracts, including renewals and service upselling.
+  - Address and resolve service-related concerns proactively.
+
+- **Goals:**
+  - Maintain a 92% client retention rate.
+  - Streamline contract renewal processes by 10%.
+  - Build stronger relationships to increase upsell success rates.
+
+- **Frustrations:**
+  - Lack of detailed property insights hampering client discussions.
+  - Time-consuming manual data collection for service customization.
+  - Difficulty in communicating value propositions without hard data.
+
+- **Needs:**
+  - Reliable access to detailed property insights for clients.
+  - Streamlined platforms to handle multiple service requests efficiently.
+  - Enhanced communication tools for timely and effective client interaction.
