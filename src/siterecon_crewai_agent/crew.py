@@ -1,5 +1,12 @@
+import os, sys
+
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
+from crewai_tools import PDFSearchTool
+from pathlib import Path
+
+file_dir = Path(sys.argv[0]).resolve().parents[2] / "knowledge" / "siterecon-knowledge.pdf"
+tool = PDFSearchTool(pdf=str(file_dir))
 
 # If you want to run a snippet of code before or after the crew starts, 
 # you can use the @before_kickoff and @after_kickoff decorators
@@ -18,16 +25,24 @@ class SitereconCrewaiAgent():
 	# If you would like to add tools to your agents, you can learn more about it here:
 	# https://docs.crewai.com/concepts/agents#agent-tools
 	@agent
-	def researcher(self) -> Agent:
+	def persona_extractor(self) -> Agent:
 		return Agent(
-			config=self.agents_config['researcher'],
+			config=self.agents_config['persona_extractor'],
+			tools=[tool],
 			verbose=True
 		)
 
 	@agent
-	def reporting_analyst(self) -> Agent:
+	def persona_generator(self) -> Agent:
 		return Agent(
-			config=self.agents_config['reporting_analyst'],
+			config=self.agents_config['persona_generator'],
+			verbose=True
+		)
+	
+	@agent
+	def persona_validator(self) -> Agent:
+		return Agent(
+			config=self.agents_config['persona_validator'],
 			verbose=True
 		)
 
@@ -35,16 +50,23 @@ class SitereconCrewaiAgent():
 	# task dependencies, and task callbacks, check out the documentation:
 	# https://docs.crewai.com/concepts/tasks#overview-of-a-task
 	@task
-	def research_task(self) -> Task:
+	def persona_extraction_task(self) -> Task:
 		return Task(
-			config=self.tasks_config['research_task'],
+			config=self.tasks_config['persona_extraction_task'],
 		)
 
 	@task
-	def reporting_task(self) -> Task:
+	def persona_generation_task(self) -> Task:
 		return Task(
-			config=self.tasks_config['reporting_task'],
-			output_file='report.md'
+			config=self.tasks_config['persona_generation_task'],
+			output_file='siterecon-user-personas.md'
+		)
+	
+	@task
+	def persona_validation_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['persona_validation_task'],
+			output_file='validation.md'
 		)
 
 	@crew

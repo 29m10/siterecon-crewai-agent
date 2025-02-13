@@ -172,3 +172,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.bin
+*.o
+*.out
+*.obj
+
+# Ignore SQLite database files
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
