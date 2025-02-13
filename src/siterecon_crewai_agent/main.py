@@ -2,8 +2,6 @@
 import sys
 import warnings
 
-from datetime import datetime
-
 from siterecon_crewai_agent.crew import SitereconCrewaiAgent
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
@@ -17,13 +15,9 @@ def run():
     """
     Run the crew.
     """
-    inputs = {
-        'topic': 'AI LLMs',
-        'current_year': str(datetime.now().year)
-    }
     
     try:
-        SitereconCrewaiAgent().crew().kickoff(inputs=inputs)
+        SitereconCrewaiAgent().crew().kickoff()
     except Exception as e:
         raise Exception(f"An error occurred while running the crew: {e}")
 
@@ -32,11 +26,9 @@ def train():
     """
     Train the crew for a given number of iterations.
     """
-    inputs = {
-        "topic": "AI LLMs"
-    }
+
     try:
-        SitereconCrewaiAgent().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
+        SitereconCrewaiAgent().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2])
 
     except Exception as e:
         raise Exception(f"An error occurred while training the crew: {e}")
@@ -55,11 +47,9 @@ def test():
     """
     Test the crew execution and returns the results.
     """
-    inputs = {
-        "topic": "AI LLMs"
-    }
+
     try:
-        SitereconCrewaiAgent().crew().test(n_iterations=int(sys.argv[1]), openai_model_name=sys.argv[2], inputs=inputs)
+        SitereconCrewaiAgent().crew().test(n_iterations=int(sys.argv[1]), openai_model_name=sys.argv[2])
 
     except Exception as e:
         raise Exception(f"An error occurred while testing the crew: {e}")
