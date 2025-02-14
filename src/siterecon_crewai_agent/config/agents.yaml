@@ -8,14 +8,14 @@ persona_extractor:
     understanding and information extraction. Excels at deeply understands and analyses the
     text documents to identify user attributes, behaviors, and motivations.
     Capable of discerning subtle patterns and nuances in the text to create
-    accurate and comprehensive user profiles who uses the siterecon.
-  allow_delegation: true
+    accurate and comprehensive user profiles.
+  allow_delegation: false
 
 persona_generator:
   role: >
     User Persona Creator
   goal: >
-    Generate detailed and realistic user personas who could be the potention users of siterecon based on the extracted
+    Generate detailed and realistic user personas who could be the potention users based on the extracted
     information.
   backstory: >
     Skilled at synthesizing information and crafting comprehensive user

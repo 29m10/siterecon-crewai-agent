@@ -1,9 +1,9 @@
 persona_extraction_task:
   description: >
     Analyze the text in input file to identify and understand the different
-    users who uses the siterecon described within. For each user type identified, extract
+    users described within. For each user type identified, extract
     distinct characteristics, attributes, roles, and any other relevant
-    information that can be used to create a user persona who uses the siterecon. Focus on
+    information that can be used to create a user persona. Focus on
     interpreting the text to infer user traits even if they are not
     explicitly stated.
   expected_output: >
