@@ -39,12 +39,12 @@ class SitereconCrewaiAgent():
 			verbose=True
 		)
 	
-	@agent
-	def persona_validator(self) -> Agent:
-		return Agent(
-			config=self.agents_config['persona_validator'],
-			verbose=True
-		)
+	# @agent
+	# def persona_validator(self) -> Agent:
+	# 	return Agent(
+	# 		config=self.agents_config['persona_validator'],
+	# 		verbose=True
+	# 	)
 
 	# To learn more about structured task outputs, 
 	# task dependencies, and task callbacks, check out the documentation:
@@ -62,12 +62,12 @@ class SitereconCrewaiAgent():
 			output_file='siterecon-user-personas.md'
 		)
 	
-	@task
-	def persona_validation_task(self) -> Task:
-		return Task(
-			config=self.tasks_config['persona_validation_task'],
-			output_file='validation.md'
-		)
+	# @task
+	# def persona_validation_task(self) -> Task:
+	# 	return Task(
+	# 		config=self.tasks_config['persona_validation_task'],
+	# 		output_file='validation.md'
+	# 	)
 
 	@crew
 	def crew(self) -> Crew:

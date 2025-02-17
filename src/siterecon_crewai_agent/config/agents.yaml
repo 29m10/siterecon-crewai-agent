@@ -23,13 +23,13 @@ persona_generator:
   tools: []
   allow_delegation: false
 
-persona_validator:
-  role: >
-    User Persona Validator
-  goal: >
-    Validate the generated user personas by checking for consistency,
-    completeness, and relevance to the original text.
-  backstory: >
-    Experienced validator in checking user personas with a keen eye for detail.
-  tools: []
-  allow_delegation: false
+# persona_validator:
+#   role: >
+#     User Persona Validator
+#   goal: >
+#     Validate the generated user personas by checking for consistency,
+#     completeness, and relevance to the original text.
+#   backstory: >
+#     Experienced validator in checking user personas with a keen eye for detail.
+#   tools: []
+#   allow_delegation: false
