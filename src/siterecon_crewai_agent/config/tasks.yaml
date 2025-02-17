@@ -16,11 +16,11 @@ persona_extraction_task:
 persona_generation_task:
   description: >
     Based on the extracted information, generate 5-6 distinct detailed user personas. 
-    Each user person should only contain a name, background, work responsibilities, goals, frustrations and needs. The responsibilities, goals, frustrations, 
+    Each user person should only contain a name, title, background, work responsibilities, goals, frustrations and needs. The responsibilities, goals, frustrations, 
     needs should relate to real-world scenarios and be consistent with the information extracted from the input text.
   expected_output: >
     A set of 5-6 detailed user persona profiles, each presented as a concise
-    narrative with key attributes clearly defined.
+    narrative with key attributes clearly defined and each attribute having atleast 2 sentences of description.
   agent: persona_generator
 
 # persona_validation_task:
